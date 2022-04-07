@@ -1,3 +1,21 @@
 body{
   padding: 10px;
+  background-color: #161616;
+  color: white;
+}
+header{
+  text-align: center;
+}
+.book{
+  width: 400px;
+  text-align: center;
+  /* border: 1px solid black;
+  border-bottom: none; */
+  border-bottom: 1px solid grey;
+}
+.book img{
+  height: 200px;
+}
+.book h3{
+  font-weight: normal;
 }
