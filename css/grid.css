@@ -1,0 +1,5 @@
+body{
+  display: grid;
+  grid-template-columns: minmax(915px, 1525px);
+  justify-content: center;
+}
