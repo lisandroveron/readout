@@ -5,6 +5,7 @@ body{
 .popular{
   height: 320px;
   overflow-x: scroll;
+  overflow-y: hidden;
   width: 100%;
 }
 .container{
@@ -30,24 +31,9 @@ body{
   overflow: hidden;
   text-overflow: ellipsis;
 }
+header, .popular{
+  border-bottom: 1px solid grey;
+}
 .book, header{
   text-align: center;
 }
-/* body{
-  background-color: #161616;
-  color: white;
-  padding: 10px;
-  width: 1500px;
-  margin: auto;
-}
-.bookTitle{
-  -ms-box-orient: vertical;
-  -moz-box-orient: vertical;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  display: -webkit-box;
-  font-size: 1rem;
-  font-weight: normal;
-  overflow: hidden;
-  text-overflow: ellipsis;
-} */
