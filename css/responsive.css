@@ -1,0 +1,8 @@
+@media (pointer:none), (pointer:coarse){
+  body{
+    grid-template-columns: minmax(300px, 600px);
+  }
+  .allBooks{
+    grid-template-columns: 300px;
+  }
+}

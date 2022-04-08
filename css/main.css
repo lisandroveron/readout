@@ -13,7 +13,7 @@ body{
 .container{
   width: max-content;
 }
-.book{
+.popular .book{
   display: inline-block;
   height: 300px;
   width: 300px;
@@ -32,6 +32,10 @@ body{
   font-weight: normal;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.book a{
+  color: rgb(68, 187, 58);
+  text-decoration: none;
 }
 header, .popular{
   border-bottom: 1px solid grey;

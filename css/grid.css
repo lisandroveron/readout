@@ -3,3 +3,15 @@ body{
   grid-template-columns: minmax(915px, 1525px);
   justify-content: center;
 }
+.allBooks{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-template-rows: repeat(auto-fill, 300px);
+  justify-content: center;
+}
+.book{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 200px auto 2rem;
+  justify-items: center;
+}
