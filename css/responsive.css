@@ -1,4 +1,4 @@
-@media (pointer:none), (pointer:coarse){
+@media screen and (max-width: 600px){
   body{
     grid-template-columns: minmax(300px, 600px);
   }
