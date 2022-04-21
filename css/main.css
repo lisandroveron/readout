@@ -6,7 +6,7 @@ body{
   }
 .popular{
   height: 320px;
-  overflow-x: scroll;
+  overflow-x: auto;
   overflow-y: hidden;
   width: 100%;
 }
@@ -18,9 +18,33 @@ body{
   height: 300px;
   width: 300px;
 }
+/* ----- BLOCK FOR .book STYLE ----- */
+.book{
+  position: relative;
+}
 .book__cover{
   height: 200px;
   width: 133px;
+}
+.book__details{
+  color: transparent;
+  height: 200px;
+  overflow-y: auto;
+  padding: 5px;
+  position: absolute;
+  text-align: justify;
+  top: -100%;
+}
+.description{
+  margin: 0;
+}
+.book:hover .book__details{
+  background-color: #161616;
+  color: inherit;
+  top: 0;
+  transition: background-color 0.4s,
+              top 0.3s,
+              color 0.9s 0.3s;
 }
 .book__title{
   -ms-box-orient: vertical;
@@ -37,6 +61,7 @@ body{
   color: rgb(68, 187, 58);
   text-decoration: none;
 }
+/* ----- END BLOCK FOR .book STYLE ----- */
 header, .popular{
   border-bottom: 1px solid grey;
 }
