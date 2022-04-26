@@ -34,6 +34,9 @@ body{
   position: absolute;
   text-align: justify;
   top: -100%;
+  transition: background-color 0.4s,
+              top 0.3s,
+              color 0.9s 0.3s;
 }
 .description{
   margin: 0;
@@ -42,9 +45,6 @@ body{
   background-color: #161616;
   color: inherit;
   top: 0;
-  transition: background-color 0.4s,
-              top 0.3s,
-              color 0.9s 0.3s;
 }
 .book__title{
   -ms-box-orient: vertical;
